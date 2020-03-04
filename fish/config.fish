@@ -41,6 +41,7 @@ function fish_user_key_bindings
     bind -M insert \ck fzf-cd-widget
   end
 end
+set -gx PATH "/usr/local/bin" $PATH
 
 # FZF configuration
 set -gx FZF_ALT_C_COMMAND "fd -t d -E Library -E Applications"
@@ -82,3 +83,4 @@ set -gx PATH "$HOME/google-cloud-sdk/bin" $PATH
 
 # V
 set -gx PATH "$HOME/bin/v" $PATH
+
