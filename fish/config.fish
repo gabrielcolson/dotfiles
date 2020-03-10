@@ -7,6 +7,9 @@ source $HOME/.config/fish/functions.fish
 # Disable greeting
 set fish_greeting
 
+# Setup starship prompt
+starship init fish | source
+
 # Vi mode
 fish_vi_key_bindings
 
