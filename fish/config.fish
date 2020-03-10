@@ -10,6 +10,9 @@ set fish_greeting
 # Setup starship prompt
 starship init fish | source
 
+# Setup direnv
+eval (direnv hook fish)
+
 # Vi mode
 fish_vi_key_bindings
 
