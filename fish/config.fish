@@ -86,7 +86,3 @@ set -gx PATH "$HOME/.cargo/bin" $PATH
 
 # gcloud
 set -gx PATH "$HOME/google-cloud-sdk/bin" $PATH
-
-# V
-set -gx PATH "$HOME/bin/v" $PATH
-
