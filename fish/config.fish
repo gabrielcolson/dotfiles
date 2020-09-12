@@ -8,10 +8,10 @@ source $HOME/.config/fish/functions.fish
 set fish_greeting
 
 # Setup starship prompt
-starship init fish | source
+/usr/local/bin/starship init fish | source
 
 # Setup direnv
-eval (direnv hook fish)
+eval (/usr/local/bin/direnv hook fish)
 
 # Vi mode
 fish_vi_key_bindings

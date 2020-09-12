@@ -147,12 +147,10 @@ live_config_reload: false
 shell:
   # Fish shell
   program: /usr/local/bin/fish
-  # Try to attach to an existing tmux session
-  # on startup
-  # Otherwise, create one
+  # Create new tmux session on startup
   args:
   - -c
-  - "tmux attach || tmux"
+  - "tmux"
 
 # Windows 10 ConPTY backend
 enable_experimental_conpty_backend: false
